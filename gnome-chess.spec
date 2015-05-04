@@ -1,7 +1,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-chess
-(Version:	)3.16.1
+Version:	3.16.1
 Release:	1
 Summary:	GNOME Chess game
 License:	GPLv2+ and GFDL

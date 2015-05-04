@@ -1,4 +1,5 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
+%define debug_package %{nil}
 
 Name:		gnome-chess
 Version:	3.16.1
@@ -34,7 +35,7 @@ support if OpenGL is present.
 %setup -q
 
 %build
-%configure
+%configure CFLAGS="-Wno-error"
 %make
 
 %install

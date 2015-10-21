@@ -1,9 +1,10 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 %define debug_package %{nil}
+%define _disable_rebuild_configure 1
 
 Name:		gnome-chess
-Version:	3.16.1
-Release:	3
+Version:	3.18.0
+Release:	1
 Summary:	GNOME Chess game
 License:	GPLv2+ and GFDL
 Group:		Games/Boards
@@ -50,7 +51,7 @@ support if OpenGL is present.
 %{_datadir}/glib-2.0/schemas/org.gnome.chess.gschema.xml
 %{_datadir}/%{name}
 %config(noreplace) %{_sysconfdir}/%{name}/engines.conf
-%{_iconsdir}/*/*/apps/%{name}.*
+%{_iconsdir}/*/*/apps/%{name}*.*
 %{_mandir}/man6/%{name}.6*
 %{_datadir}/appdata/%{name}.appdata.xml
 

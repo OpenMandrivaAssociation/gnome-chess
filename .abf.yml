@@ -1,4 +1,5 @@
 removed_sources:
   gnome-chess-3.14.3.tar.xz: 48ec4249c121fa943e05a06cd045352d295d98cf
-sources:
   gnome-chess-3.16.1.tar.xz: 376535b96c4e7173d61389e6faf22dd03a762fe1
+sources:
+  gnome-chess-3.18.0.tar.xz: 96882ac8a53203ac47f2a6ed1476598bd09d56fc

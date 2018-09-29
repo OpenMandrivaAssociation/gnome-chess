@@ -1,6 +1,6 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 %define debug_package %{nil}
-%define _disable_rebuild_configure 1
+%define _disable_rebuild_configure 0
 
 Name:		gnome-chess
 Version:	3.30.0

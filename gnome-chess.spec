@@ -21,7 +21,7 @@ BuildRequires:	pkgconfig(sqlite3)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	intltool
 BuildRequires:	itstool
-BuildRequires:	vala-devel >= 0.16.0
+BuildRequires:	vala
 BuildRequires:	libxml2-utils
 BuildRequires:	pkgconfig(x11)
 BuildRequires:  meson

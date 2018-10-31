@@ -4,7 +4,7 @@
 
 Name:		gnome-chess
 Version:	3.18.0
-Release:	1
+Release:	2
 Summary:	GNOME Chess game
 License:	GPLv2+ and GFDL
 Group:		Games/Boards

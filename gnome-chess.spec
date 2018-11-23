@@ -58,4 +58,4 @@ support if OpenGL is present.
 %config(noreplace) %{_sysconfdir}/%{name}/engines.conf
 %{_iconsdir}/*/*/apps/%{name}*.*
 %{_mandir}/man6/%{name}.6*
-%{_datadir}/appdata/%{name}.appdata.xml
+%{_datadir}/metainfo/%{name}.appdata.xml

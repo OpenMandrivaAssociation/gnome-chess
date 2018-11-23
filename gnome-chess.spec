@@ -27,6 +27,8 @@ BuildRequires:	pkgconfig(x11)
 BuildRequires:  meson
 Obsoletes: 	glchess
 Requires:	gnuchess
+# For fix build issue:  "error: Package `librsvg-2.0' not found in specified Vala API directories or GObject-Introspection GIR directories" (penguin)
+BuildRequires:  librsvg-vala-devel
 # For help
 Requires:	yelp
 

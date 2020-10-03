@@ -54,6 +54,7 @@ support if OpenGL is present.
 %{_bindir}/%{name}
 %{_datadir}/applications/org.gnome.Chess.desktop
 %{_datadir}/glib-2.0/schemas/org.gnome.Chess.gschema.xml
+%{_datadir}/dbus-1/services/org.gnome.Chess.service
 %{_datadir}/%{name}
 %config(noreplace) %{_sysconfdir}/%{name}/engines.conf
 %{_iconsdir}/*/*/apps/org.gnome.Chess*.*

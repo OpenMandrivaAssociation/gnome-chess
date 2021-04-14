@@ -3,19 +3,20 @@
 %define _disable_rebuild_configure 0
 
 Name:		gnome-chess
-Version:	3.38.1
+Version:	40.0
 Release:	1
 Summary:	GNOME Chess game
 License:	GPLv2+ and GFDL
 Group:		Games/Boards
 URL:		https://wiki.gnome.org/Chess
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
+BuildRequires:  cmake
 BuildRequires:	pkgconfig(gio-2.0)
 BuildRequires:	pkgconfig(gl)
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(glu)
 BuildRequires:	pkgconfig(gmodule-2.0)
-BuildRequires:	pkgconfig(gtk+-3.0) >= 3.4.0
+BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(librsvg-2.0) >= 2.32.0
 BuildRequires:	pkgconfig(sqlite3)
 BuildRequires:	pkgconfig(x11)
@@ -55,7 +56,7 @@ support if OpenGL is present.
 %{_datadir}/applications/org.gnome.Chess.desktop
 %{_datadir}/glib-2.0/schemas/org.gnome.Chess.gschema.xml
 %{_datadir}/dbus-1/services/org.gnome.Chess.service
-%{_datadir}/%{name}
+#{_datadir}/%{name}
 %config(noreplace) %{_sysconfdir}/%{name}/engines.conf
 %{_iconsdir}/*/*/apps/org.gnome.Chess*.*
 %{_mandir}/man6/%{name}.6*

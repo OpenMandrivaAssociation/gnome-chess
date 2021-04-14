@@ -10,12 +10,13 @@ License:	GPLv2+ and GFDL
 Group:		Games/Boards
 URL:		https://wiki.gnome.org/Chess
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
+BuildRequires:  cmake
 BuildRequires:	pkgconfig(gio-2.0)
 BuildRequires:	pkgconfig(gl)
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(glu)
 BuildRequires:	pkgconfig(gmodule-2.0)
-BuildRequires:	pkgconfig(gtk+-3.0) >= 3.4.0
+BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(librsvg-2.0) >= 2.32.0
 BuildRequires:	pkgconfig(sqlite3)
 BuildRequires:	pkgconfig(x11)

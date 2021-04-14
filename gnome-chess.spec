@@ -3,7 +3,7 @@
 %define _disable_rebuild_configure 0
 
 Name:		gnome-chess
-Version:	3.38.1
+Version:	40.0
 Release:	1
 Summary:	GNOME Chess game
 License:	GPLv2+ and GFDL

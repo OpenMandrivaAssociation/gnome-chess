@@ -1,9 +1,8 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
-%define debug_package %{nil}
 %define _disable_rebuild_configure 0
 
 Name:		gnome-chess
-Version:	40.1
+Version:	41.0
 Release:	1
 Summary:	GNOME Chess game
 License:	GPLv2+ and GFDL

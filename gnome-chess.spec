@@ -2,7 +2,7 @@
 %define _disable_rebuild_configure 0
 
 Name:		gnome-chess
-Version:	41.1
+Version:	42.0
 Release:	1
 Summary:	GNOME Chess game
 License:	GPLv2+ and GFDL
@@ -17,6 +17,7 @@ BuildRequires:	pkgconfig(glu)
 BuildRequires:	pkgconfig(gmodule-2.0)
 BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(librsvg-2.0) >= 2.32.0
+BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:	pkgconfig(sqlite3)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	intltool

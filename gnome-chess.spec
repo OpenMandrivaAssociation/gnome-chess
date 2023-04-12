@@ -1,9 +1,11 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 %define _disable_rebuild_configure 0
 
+%global optflags %{optflags} -Wno-incompatible-function-pointer-types
+
 Name:		gnome-chess
-Version:	43.1
-Release:	2
+Version:	43.2
+Release:	1
 Summary:	GNOME Chess game
 License:	GPLv2+ and GFDL
 Group:		Games/Boards

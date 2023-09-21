@@ -5,7 +5,7 @@
 
 Name:		gnome-chess
 Version:	43.2
-Release:	1
+Release:	2
 Summary:	GNOME Chess game
 License:	GPLv2+ and GFDL
 Group:		Games/Boards

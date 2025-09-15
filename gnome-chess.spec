@@ -63,4 +63,4 @@ support if OpenGL is present.
 %config(noreplace) %{_sysconfdir}/%{name}/engines.conf
 %{_iconsdir}/*/*/apps/org.gnome.Chess*.*
 %{_mandir}/man6/%{name}.6*
-%{_datadir}/metainfo/org.gnome.Chess.appdata.xml
+%{_datadir}/metainfo/org.gnome.Chess.metainfo.xml

@@ -22,6 +22,7 @@ BuildRequires:	pkgconfig(librsvg-2.0) >= 2.32.0
 BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:	pkgconfig(sqlite3)
 BuildRequires:	pkgconfig(x11)
+BuildRequires:  desktop-file-utils
 BuildRequires:	intltool
 BuildRequires:	itstool
 BuildRequires:	vala

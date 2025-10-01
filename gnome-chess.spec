@@ -4,7 +4,7 @@
 %global optflags %{optflags} -Wno-incompatible-function-pointer-types
 
 Name:		gnome-chess
-Version:	49.0
+Version:	49.1
 Release:	1
 Summary:	GNOME Chess game
 License:	GPLv2+ and GFDL
